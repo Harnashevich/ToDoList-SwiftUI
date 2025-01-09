@@ -22,10 +22,9 @@ final class RegisterViewViewModel: ObservableObject {
         }
         
         Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
-            guard let self else { return }
-            guard let userId = result?.user.uid else { return }
+            guard let self, let userId = result?.user.uid else { return }
             
-            self.insertUserRecord(id: userId)
+            self.insertUserRecord(id: userId) 
         }
     }
     
