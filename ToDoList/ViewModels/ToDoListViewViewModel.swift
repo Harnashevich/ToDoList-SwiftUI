@@ -7,8 +7,12 @@
 
 import Foundation
 
-final class ToDoListViewModel: ObservableObject {
+final class ToDoListViewViewModel: ObservableObject {
     @Published var showingNewItemView = false
     
     init() {}
+    
+    func delete(id: String) {
+        
+    }
 }
