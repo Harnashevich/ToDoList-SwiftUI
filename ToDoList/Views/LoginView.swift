@@ -32,6 +32,7 @@ struct LoginView: View {
                     
                     TextField("Email Address", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .textInputAutocapitalization(.never)
                         .autocorrectionDisabled()
                     
                     SecureField("Password", text: $viewModel.password)
