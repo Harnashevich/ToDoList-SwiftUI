@@ -18,4 +18,4 @@ The project is based on the iOS Academy course.
 • MVVM <br />
 • Firebase storage and authentication
 
-![364695485-da6aab06-9084-422b-9c51-9b41fc4eb195](https://github.com/user-attachments/assets/346639a7-c2f6-4454-96cf-9c371e168d1d)
+![MyCollages](https://github.com/user-attachments/assets/f7246ea0-8e4f-408c-9184-1d63d1c7e454)
