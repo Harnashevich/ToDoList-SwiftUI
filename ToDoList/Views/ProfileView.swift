@@ -28,14 +28,6 @@ struct ProfileView: View {
     
     @ViewBuilder
     func profile(user: User) -> some View {
-        // Avatar
-        Image (systemName:"person.circle")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            .foregroundStyle(Color.blue)
-            .frame(width: 125, height: 125)
-            .padding()
-        
         // Info: Name, email, Member since
         VStack(alignment: .leading) {
             HStack {
